@@ -1,0 +1,19 @@
+<resources>
+    <string name="app_name">LaucherBadgesDemo</string>
+
+    <string name="short_news_label">新闻</string>
+    <string name="long_news_label">看新闻</string>
+    <string name="news_disabled_message">disable 新闻</string>
+
+    <string name="short_search_label">搜索</string>
+    <string name="long_search_label">搜索</string>
+    <string name="search_disabled_message">disable 搜索</string>
+
+    <string name="short_email_label">邮件</string>
+    <string name="long_email_label">写邮件</string>
+    <string name="email_disabled_message">disable 邮件</string>
+
+    <string name="short_web_label">网页</string>
+    <string name="long_web_label">看网页</string>
+    <string name="web_disabled_message">disable 网页</string>
+</resources>

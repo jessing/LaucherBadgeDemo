@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="utf-8"?>
+<shortcuts xmlns:android="http://schemas.android.com/apk/res/android">
+    <shortcut
+        android:shortcutId="news"
+        android:enabled="true"
+        android:icon="@drawable/ic_news_black_24dp"
+        android:shortcutShortLabel="@string/short_news_label"
+        android:shortcutLongLabel="@string/long_news_label"
+        android:shortcutDisabledMessage="@string/news_disabled_message">
+        <intent
+            android:action="android.intent.action.VIEW"
+            android:targetPackage="com.example.jessing.badge"
+            android:targetClass="com.example.jessing.badge.NewsActivity" />
+        <!-- If your shortcut is associated with multiple intents, include them
+             here. The last intent in the list determines what the user sees when
+             they launch this shortcut. -->
+        <categories android:name="android.shortcut.conversation" />
+    </shortcut>
+    <shortcut
+        android:shortcutId="email"
+        android:enabled="true"
+        android:icon="@drawable/ic_email_black_24dp"
+        android:shortcutShortLabel="@string/short_email_label"
+        android:shortcutLongLabel="@string/long_email_label"
+        android:shortcutDisabledMessage="@string/email_disabled_message">
+        <intent
+            android:action="android.intent.action.VIEW"
+            android:targetPackage="com.example.jessing.badge"
+            android:targetClass="com.example.jessing.badge.EmailActivity" />
+        <!-- If your shortcut is associated with multiple intents, include them
+             here. The last intent in the list determines what the user sees when
+             they launch this shortcut. -->
+        <categories android:name="android.shortcut.conversation" />
+    </shortcut>
+    <shortcut
+        android:shortcutId="search"
+        android:enabled="true"
+        android:icon="@drawable/ic_search_black_24dp"
+        android:shortcutShortLabel="@string/short_search_label"
+        android:shortcutLongLabel="@string/long_search_label"
+        android:shortcutDisabledMessage="@string/search_disabled_message">
+        <intent
+            android:action="android.intent.action.VIEW"
+            android:targetPackage="com.example.jessing.badge"
+            android:targetClass="com.example.jessing.badge.SearchActivity" />
+        <!-- If your shortcut is associated with multiple intents, include them
+             here. The last intent in the list determines what the user sees when
+             they launch this shortcut. -->
+        <categories android:name="android.shortcut.conversation" />
+    </shortcut>
+    <shortcut
+        android:shortcutId="web"
+        android:enabled="true"
+        android:icon="@drawable/ic_web_black_24dp"
+        android:shortcutShortLabel="@string/short_web_label"
+        android:shortcutLongLabel="@string/long_web_label"
+        android:shortcutDisabledMessage="@string/web_disabled_message">
+        <intent
+            android:action="android.intent.action.VIEW"
+            android:targetPackage="com.example.jessing.badge"
+            android:targetClass="com.example.jessing.badge.WebActivity" />
+        <!-- If your shortcut is associated with multiple intents, include them
+             here. The last intent in the list determines what the user sees when
+             they launch this shortcut. -->
+        <categories android:name="android.shortcut.conversation" />
+    </shortcut>
+    <!-- Specify more shortcuts here. -->
+</shortcuts>
